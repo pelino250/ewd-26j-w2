@@ -26,15 +26,10 @@ Every group must use the following table and column names to ensure the app's se
 
 Using `data.sql`, populate the system. Your data must respect the **Referential Integrity** of the schema.
 
-* 
 **Task:** Insert 3 unique Riders and 3 unique Passengers.
 
-
-* 
 **The Challenge:** Insert 5 Trips where at least **one Rider** has completed **two different Trips**.
 
-
-* 
 **Constraint:** You cannot insert a Trip for a `rider_id` that does not exist in the `riders` table.
 
 
@@ -42,13 +37,9 @@ Using `data.sql`, populate the system. Your data must respect the **Referential 
 
 Write a script named `analysis.sql` to answer this business request: *"Which rider has generated the most revenue today?"*
 
-* 
 **Requirement:** Your query must use an `INNER JOIN` to connect `riders` and `trips`.
 
-
-* 
 **Logic:** Use `SUM(fare)` grouped by the rider's name and sorted in descending order.
-
 
 
 ### 4. Submission (2 Minutes)
