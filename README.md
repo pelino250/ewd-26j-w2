@@ -1,4 +1,4 @@
-## Activity: The Moto-Taxi SQL Sprint (Standardized)
+## Activity: The Moto-Taxi SQL Sprint
 
 **Time:** 30 Minutes
 
